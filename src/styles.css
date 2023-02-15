@@ -9,13 +9,7 @@ h1 {
   padding: 0px;
   font-family: "DM Serif Display", serif;
   font-size: 48px;
-}
-
-h2 {
-  text-align: left;
-  padding: 0px;
-  font-family: "DM Serif Display", serif;
-  font-size: 18px;
+  color: black;
 }
 
 p {
@@ -24,11 +18,21 @@ p {
   padding: 20px;
   font-family: monospace;
   font-weight: 300;
+  color: black;
 }
 
 a {
   color: black;
+}
+
+a:link {
+  color: black;
   text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 button {
@@ -82,12 +86,12 @@ button:hover {
   color: #000;
 }
 
-.container {
-  max-width: 700px;
-  margin: 0 auto;
+.weather-app {
   background: #f2e8de;
-  padding: 35px 35px;
+  padding: 30px;
+  margin: 20px auto;
   border-radius: 20px;
+  max-width: 700px;
   box-shadow: 4px 4px 4px rgb(0 0 0 / 5%);
 }
 
@@ -117,6 +121,7 @@ button:hover {
   font-family: "DM Serif Display", serif;
   position: relative;
   left: -25px;
+  color: black;
 }
 
 .units {
@@ -134,11 +139,13 @@ button:hover {
   border-radius: 20px;
   box-shadow: 4px 4px 4px rgb(0 0 0 / 5%);
   text-align: center;
+  color: black;
 }
 .todayinfo {
   font-size: 14px;
   font-family: monospace;
   text-align: left;
+  color: black;
 }
 
 .thisweek {
@@ -151,11 +158,18 @@ button:hover {
   width: 100px;
   border-radius: 20px;
   box-shadow: 4px 4px 4px rgb(0 0 0 / 5%);
+  color: black;
+}
+
+.weekdays {
+  padding: 1px;
 }
 
 .d-flex {
   font-family: monospace;
   border-radius: 40px;
+  color: black;
+  column-gap: 10px;
 }
 
 .search-form {
@@ -173,4 +187,9 @@ button:hover {
   list-style: none;
   font-family: monospace;
   text-align: left;
+}
+
+.test {
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
 }
