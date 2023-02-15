@@ -46,6 +46,36 @@ button {
   font-family: "DM Serif Display", serif;
 }
 
+.button {
+  background: white;
+  color: #000;
+  display: block;
+  margin-top: 5px;
+  margin: 0 auto;
+  font-size: 10px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 5%);
+  transition: all 200ms ease-out;
+  font-family: "DM Serif Display", serif;
+}
+
+.buttonsearch {
+  background: white;
+  color: #000;
+  display: block;
+  margin-top: 5px;
+  margin: 0 auto;
+  font-size: 10px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 5%);
+  transition: all 200ms ease-out;
+  font-family: "DM Serif Display", serif;
+}
+
 button:hover {
   cursor: pointer;
   background: #fbf8f5;
