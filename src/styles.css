@@ -31,14 +31,6 @@ a {
   text-decoration: none;
 }
 
-.hanne {
-  color: black;
-  font-size: 15px;
-  list-style: none;
-  font-family: monospace;
-  text-align: left;
-}
-
 button {
   background: white;
   color: #000;
@@ -61,7 +53,7 @@ button:hover {
 }
 
 .container {
-  max-width: 700px;
+  width: 100px;
   margin: 0 auto;
   background: #f2e8de;
   padding: 35px 35px;
@@ -138,4 +130,12 @@ button:hover {
 
 .search-form {
   margin-bottom: 20px;
+}
+
+.hanne {
+  color: black;
+  font-size: 15px;
+  list-style: none;
+  font-family: monospace;
+  text-align: left;
 }
