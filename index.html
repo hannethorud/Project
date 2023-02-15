@@ -50,15 +50,17 @@
           <button class="button" type="submit">
             <i class="fa-solid fa-magnifying-glass sok"></i>
           </button>
+          <button class="button" id="current-location-button">
+            <span class="sok">
+              <i class="fa-solid fa-location-arrow"> </i
+            ></span>
+          </button>
         </form>
       </div>
       <br />
-      <h1 id="city">Oslo</h1>
-      <span class="hanne" id="date"> </span>
-      <span class="hanne">
-        <br />
-        Sun
-      </span>
+      <h1 id="city"></h1>
+      <span class="hanne" id="date"> </span><br />
+      <span class="hanne" id="description"> <br /> </span>
       <br />
       <br />
       <h2>Today</h2>
@@ -75,9 +77,8 @@
           </div>
 
           <div class="col todayinfo">
-            Sun <br />
-            Humidity: 70% <br />
-            Wind: 2 m/s
+            Humidity: <span id="humidity"></span>% Wind:
+            <span id="wind"></span> km/h
           </div>
         </div>
       </div>
@@ -133,8 +134,10 @@
     </div>
     <br />
     <p>
-      <a href="https://github.com/hannethorud/Project">Open-source code</a> by
-      Hanne S. Thorud
+      <a href="https://github.com/hannethorud/Project" class="hanne"
+        >Open-source code</a
+      >
+      by Hanne S. Thorud
     </p>
     <br />
     <br />
