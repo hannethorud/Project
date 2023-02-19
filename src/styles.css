@@ -132,6 +132,24 @@ button:hover {
   top: -34px;
 }
 
+.bilde {
+  font-size: 20px;
+  font-family: "DM Serif Display", serif;
+  color: black;
+  position: relative;
+  top: -15px;
+}
+
+.dayandtime {
+  color: black;
+  font-size: 15px;
+  list-style: none;
+  font-family: monospace;
+  position: relative;
+  right: -25px;
+  top: 7px;
+}
+
 .today {
   background-color: white;
   margin: 0 auto;
@@ -148,14 +166,13 @@ button:hover {
   color: black;
 }
 
-.thisweek {
+.nextweek {
   font-size: 14px;
   font-family: monospace;
   text-align: center;
   background-color: white;
-  padding: 25px 16px;
+  padding: 10px 20px 50px;
   margin: 0 auto;
-  width: 100px;
   border-radius: 20px;
   box-shadow: 4px 4px 4px rgb(0 0 0 / 5%);
   color: black;
@@ -195,10 +212,29 @@ button:hover {
 }
 
 .todaydegree .active {
-  color: rgb(33, 33, 33);
+  color: black;
   cursor: default;
 }
 
 .todaydegree .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: black;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
